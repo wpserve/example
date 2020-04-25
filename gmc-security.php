@@ -79,8 +79,8 @@ class GMC_Security {
 	public static function validate_shopify_request() {
 		// TODO - find a better place for them
 		$shopify_app_secrets = [
-			'scotiabank-gmc.myshopify.com'  => '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',
-			'gmc-store-1.myshopify.com' => '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'
+			'scotiabank-gmc.myshopify.com'  => 'xxxxx_8ad0ce20eacfa6d055fb306702386fe6',
+			'gmc-store-1.myshopify.com' => 'xxxxx_2ec80b753f12dcd38b22fc4964ccffe6'
 		];
 
 		$shopify_domain = $_SERVER['HTTP_X_SHOPIFY_SHOP_DOMAIN'];
